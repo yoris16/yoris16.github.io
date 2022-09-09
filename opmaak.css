@@ -11,4 +11,7 @@ body {
     font-family: verdana;
     font-size: 20px;
   }
-  p.groove {border-style: groove;}
+  p.one {
+    border-style: solid;
+    border-color: rgb(41, 203, 0);
+  }
