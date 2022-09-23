@@ -25,4 +25,35 @@ body {
     background-color: deepskyblue;
   }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+  }
   
+  li {
+    float: left;
+    border-right:1px solid deepskyblue;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: navy;
+  }
+  
+  .active {
+    background-color:  navy;
+  }
