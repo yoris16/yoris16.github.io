@@ -39,3 +39,4 @@ body {
   .active {
     background-color: #049faa;
   }
+  p.double {border-style: double;}
