@@ -12,6 +12,11 @@ body {
     font-size: 20px;
   }
 
+  p2 {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -45,5 +50,5 @@ body {
   }
 
   p2 {
-    border-style: groove
+    border-style: groove;
   }
