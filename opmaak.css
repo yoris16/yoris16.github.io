@@ -43,3 +43,7 @@ body {
   p {
     border-style: double;
   }
+
+  p2 {
+    border-style: groove
+  }
