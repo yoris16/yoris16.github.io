@@ -4,12 +4,12 @@ body {
   
   h1 {
     color: black;
-    text-align: center;
+    text-align: center; /* De kleur en de plaats van mijn titel */
   }
   
   p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 20px; /* De groote en stijl van mijn teksten */
   }
 
   ul {
@@ -18,7 +18,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: navy;
-  }
+  } /* Hiermee zorg ik ervoor dat mijn menu aangepast wordt */
   
   li {
     float: left;
@@ -29,24 +29,24 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-  }
+    text-decoration: none; 
+  } /* hiermee bepaal ik waar het menu komt te staan en hoe de tekst eruit komt te zien /*
   
-  li a:hover:not(.active) {
+  li a:hover:not(.active) { 
     background-color: deepskyblue;
-  }
+  } /* hiermee geef ik de kleur van de knoppen van mijn menu aan ook als je erover heen gaat */
   
   .active {
     background-color: #049faa;
-  }
+  } /* hiermee geef ik de kleur van de knoppen van mijn menu aan ook als je erover heen gaat */
   
   p {
     border-style: double;
-  }
+  } /* hiermee zet ik een rand om mijn tekst heen */
 
   footer {
     text-align: center;
     padding: 3px;
     background-color: navy;
     color: white;
-  }
+  } /* Hiermee bepaal ik de plek, kleur en en achtergrond kleur van mijn footer */
