@@ -30,7 +30,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
-  } /* hiermee bepaal ik waar het menu komt te staan en hoe de tekst eruit komt te zien /*
+  } /* hiermee bepaal ik waar het menu komt te staan en hoe de tekst eruit komt te zien */
   
   li a:hover:not(.active) { 
     background-color: deepskyblue;
@@ -84,4 +84,4 @@ body {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: navy;}
