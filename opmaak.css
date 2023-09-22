@@ -54,7 +54,7 @@ body {
   .dropbtn {
     background-color: navy;
     color: white;
-    padding: 16px;
+    padding: 14px;
     font-size: 16px;
     border: none;
   }
@@ -80,7 +80,7 @@ body {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: hsl(0, 191, 255%);}
   
   .dropdown:hover .dropdown-content {display: block;}
   
