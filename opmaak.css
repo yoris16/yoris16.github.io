@@ -52,7 +52,7 @@ body {
   } /* Hiermee bepaal ik de plek, kleur en en achtergrond kleur van mijn footer */
 
   .dropbtn {
-    background-color: navy;
+    background-color: navy; /* Dit is de achtergrond kleur van mijn dropdown-menu */
     color: white;
     padding: 14px;
     font-size: 16px;
@@ -64,7 +64,7 @@ body {
     display: inline-block;
   }
   
-  .dropdown-content {
+  .dropdown-content { /* dit bepaalt hoe de verschillende onderdelen in het dropdown-menu eruit zien */
     display: none;
     position: absolute;
     background-color: #f1f1f1;
